@@ -2,8 +2,6 @@ command_id: 746.7B0.224EEF|fc=1
 test_cases:
 - expected_values:
     BUZZ_AC_REFRIG_P_SENS1: 5.5264
-    BUZZ_AC_REFRIG_T_SENS1: 3201
-    BUZZ_AC_REFRIG_T_SENS1_INT: 3201
   response: |-
     7B0100D624EEF02747E
     7B0219A7E9AD2D2D2D2

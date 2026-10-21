@@ -5,7 +5,6 @@
   ]},
 { "hdr": "710", "rax": "77A", "fcm1": true, "cmd": {"22": "15D1"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
-    {"id": "BUZZ_HV_EM_PWR_LIMITATION",           "path": "Engine",  "fmt": {"bix": 8,  "len": 16, "max": 3276750, "mul": 50,              "unit": "watts"         }, "name": "Electric motor power limitation"},
     {"id": "BUZZ_HV_EM_NV_PWR_LIMITATION",        "path": "Engine",  "fmt": {"bix": 24, "len": 8,  "max": 12750,   "mul": 50,              "unit": "watts"         }, "name": "Electric motor non-vehicle power limitation"},
     {"id": "BUZZ_NV_ENERGY_REQUIREMENT",          "path": "Battery", "fmt": {"bix": 32, "len": 8,  "max": 12.75,   "mul": 50, "div": 1000, "unit": "kilowattHours" }, "name": "Non-vehicle energy requirement"},
     {"id": "BUZZ_HV_EM_HVBAT_ENERGY_INFORMATION", "path": "Battery", "fmt": {"bix": 40, "len": 16, "max": 3276.75, "mul": 50, "div": 1000, "unit": "kilowattHours" }, "name": "Electric motor battery energy"}
@@ -108,7 +107,7 @@
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "0800"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
-    {"id": "BUZZ_AC_COMPRESSOR_PWR_ACT", "path": "Climate", "fmt": {"bix": 40, "len": 16, "max": 65535, "unit": "watts" }, "name": "A/C compressor power, actual"}
+    {"id": "BUZZ_AC_COMPRESSOR_PWR_ACT", "path": "Climate", "fmt": {"bix": 40, "len": 16, "max": 65535, "nullmax": 65535, "unit": "watts" }, "name": "A/C compressor power, actual"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2603"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
@@ -120,7 +119,7 @@
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2605"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
-    {"id": "BUZZ_REFRIG_P", "path": "Climate", "fmt": { "len": 8, "max": 51, "div": 5, "unit": "bars" }, "name": "Refrigerant pressure"}
+    {"id": "BUZZ_REFRIG_P", "path": "Climate", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 51, "unit": "bars" }, "name": "Refrigerant pressure"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "2606"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
@@ -202,9 +201,7 @@
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "cmd": {"22": "4EEF"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2027 },
   "signals": [
-    {"id": "BUZZ_AC_REFRIG_P_SENS1",     "path": "Climate", "fmt": {           "len": 16, "max": 576.708,             "mul": 88, "div": 10000,             "unit": "bars"    }, "name": "A/C refrigerant pressure, sensor 1"},
-    {"id": "BUZZ_AC_REFRIG_T_SENS1",     "path": "Climate", "fmt": {"bix": 16, "len": 16, "max": 6513.5,  "min": -40, "mul": 10, "div": 100,   "add": -40, "unit": "celsius" }, "name": "A/C refrigerant temperature, sensor 1"},
-    {"id": "BUZZ_AC_REFRIG_T_SENS1_INT", "path": "Climate", "fmt": {"bix": 32, "len": 16, "max": 6513.5,  "min": -40, "mul": 10, "div": 100,   "add": -40, "unit": "celsius" }, "name": "A/C refrigerant temperature, sensor 1 interior"}
+    {"id": "BUZZ_AC_REFRIG_P_SENS1", "path": "Climate", "fmt": { "len": 16, "max": 576.708, "mul": 88, "div": 10000, "unit": "bars" }, "name": "A/C refrigerant pressure, sensor 1"}
   ]},
 { "hdr": "746", "rax": "7B0", "fcm1": true, "dbg": true, "cmd": {"22": "F449"}, "freq": 1,
   "signals": [
