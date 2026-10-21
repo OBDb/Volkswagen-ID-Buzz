@@ -1,0 +1,8 @@
+command_id: FC00.FE007B.22F40D|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_VSS: 0
+  response: 17FE007B0462F40D00
+- expected_values:
+    BUZZ_VSS: 94
+  response: 17FE007B0462F40D5E

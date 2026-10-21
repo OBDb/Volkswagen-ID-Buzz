@@ -1,0 +1,8 @@
+command_id: FC00.FE007B.22189B|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_AFTER_CONTACTS_V: 372
+  response: 17FE007B0562189B0AB8
+- expected_values:
+    BUZZ_HVBAT_AFTER_CONTACTS_V: 385.5
+  response: 17FE007B0562189B0AD3

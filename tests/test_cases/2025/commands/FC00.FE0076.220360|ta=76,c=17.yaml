@@ -1,0 +1,14 @@
+command_id: FC00.FE0076.220360|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVAUX_I: 0.38
+  response: 17FE0076056203600026
+- expected_values:
+    BUZZ_HVAUX_I: 2.5
+  response: 17FE00760562036000FA
+- expected_values:
+    BUZZ_HVAUX_I: 2.59
+  response: 17FE0076056203600103
+- expected_values:
+    BUZZ_HVAUX_I: 5.72
+  response: 17FE007605620360023C

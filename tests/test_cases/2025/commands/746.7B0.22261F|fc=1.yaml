@@ -1,0 +1,29 @@
+command_id: 746.7B0.22261F|fc=1
+test_cases:
+- expected_values:
+    BUZZ_RECIRC_FLAP_CMD_STEPS: 560
+  response: 7B00562261F0230
+- expected_values:
+    BUZZ_RECIRC_FLAP_CMD_STEPS: 588
+  response: 7B00562261F024C
+- expected_values:
+    BUZZ_RECIRC_FLAP_CMD_STEPS: 602
+  response: 7B00562261F025A
+- expected_values:
+    BUZZ_RECIRC_FLAP_CMD_STEPS: 605
+  response: 7B00562261F025D
+- expected_values:
+    BUZZ_RECIRC_FLAP_CMD_STEPS: 609
+  response: 7B00562261F0261
+- expected_values:
+    BUZZ_RECIRC_FLAP_CMD_STEPS: 619
+  response: 7B00562261F026B
+- expected_values:
+    BUZZ_RECIRC_FLAP_CMD_STEPS: 623
+  response: 7B00562261F026F
+- expected_values:
+    BUZZ_RECIRC_FLAP_CMD_STEPS: 801
+  response: 7B00562261F0321
+- expected_values:
+    BUZZ_RECIRC_FLAP_CMD_STEPS: 874
+  response: 7B00562261F036A

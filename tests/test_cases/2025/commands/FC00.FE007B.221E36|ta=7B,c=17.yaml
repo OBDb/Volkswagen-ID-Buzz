@@ -1,0 +1,14 @@
+command_id: FC00.FE007B.221E36|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_V_BEFORE: 370.4685
+  response: 17FE007B05621E362E4F
+- expected_values:
+    BUZZ_HVBAT_V_BEFORE: 375.93724
+  response: 17FE007B05621E362EFE
+- expected_values:
+    BUZZ_HVBAT_V_BEFORE: 376.24974
+  response: 17FE007B05621E362F08
+- expected_values:
+    BUZZ_HVBAT_V_BEFORE: 385.53098
+  response: 17FE007B05621E363031

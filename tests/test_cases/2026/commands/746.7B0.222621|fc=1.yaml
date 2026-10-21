@@ -1,0 +1,5 @@
+command_id: 746.7B0.222621|fc=1
+test_cases:
+- expected_values:
+    BUZZ_RECIRC_FLAP_STOP_RECIRC: 849
+  response: 7B0056226210351

@@ -1,0 +1,27 @@
+command_id: 710.77A.222AB8|fc=1
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_KWH: 40.2
+  response: |-
+    77A100B622AB8000006
+    77A214800000000AAAA
+- expected_values:
+    BUZZ_HVBAT_KWH: 40.4
+  response: |-
+    77A100B622AB8000006
+    77A215000000000AAAA
+- expected_values:
+    BUZZ_HVBAT_KWH: 51.1
+  response: |-
+    77A100B622AB8000007
+    77A21FC00000000AAAA
+- expected_values:
+    BUZZ_HVBAT_KWH: 52.775
+  response: |-
+    77A100B622AB8000008
+    77A213F00000000AAAA
+- expected_values:
+    BUZZ_HVBAT_KWH: 57.65
+  response: |-
+    77A100B622AB8000009
+    77A210200000000AAAA

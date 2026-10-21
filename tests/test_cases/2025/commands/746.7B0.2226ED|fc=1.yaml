@@ -1,0 +1,5 @@
+command_id: 746.7B0.2226ED|fc=1
+test_cases:
+- expected_values:
+    BUZZ_AIR_POLUTION: 1.3
+  response: 7B0046226ED0D

@@ -1,0 +1,17 @@
+command_id: 746.7B0.222607|fc=1
+test_cases:
+- expected_values:
+    BUZZ_CLIMATE_RAD_FAN_CMD_DUTY: 7.2
+  response: 7B00462260712
+- expected_values:
+    BUZZ_CLIMATE_RAD_FAN_CMD_DUTY: 90.4
+  response: 7B004622607E2
+- expected_values:
+    BUZZ_CLIMATE_RAD_FAN_CMD_DUTY: 97.6
+  response: 7B004622607F4
+- expected_values:
+    BUZZ_CLIMATE_RAD_FAN_CMD_DUTY: 99.6
+  response: 7B004622607F9
+- expected_values:
+    BUZZ_CLIMATE_RAD_FAN_CMD_DUTY: 100
+  response: 7B004622607FE

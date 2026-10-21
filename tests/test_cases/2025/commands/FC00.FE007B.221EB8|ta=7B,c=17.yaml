@@ -1,0 +1,32 @@
+command_id: FC00.FE007B.221EB8|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_MOD_T_11: 12
+  response: 17FE007B05621EB801A0
+- expected_values:
+    BUZZ_HVBAT_MOD_T_11: 12.125
+  response: 17FE007B05621EB801A1
+- expected_values:
+    BUZZ_HVBAT_MOD_T_11: 12.25
+  response: 17FE007B05621EB801A2
+- expected_values:
+    BUZZ_HVBAT_MOD_T_11: 12.5
+  response: 17FE007B05621EB801A4
+- expected_values:
+    BUZZ_HVBAT_MOD_T_11: 12.625
+  response: 17FE007B05621EB801A5
+- expected_values:
+    BUZZ_HVBAT_MOD_T_11: 13.375
+  response: 17FE007B05621EB801AB
+- expected_values:
+    BUZZ_HVBAT_MOD_T_11: 13.5
+  response: 17FE007B05621EB801AC
+- expected_values:
+    BUZZ_HVBAT_MOD_T_11: 13.875
+  response: 17FE007B05621EB801AF
+- expected_values:
+    BUZZ_HVBAT_MOD_T_11: 14
+  response: 17FE007B05621EB801B0
+- expected_values:
+    BUZZ_HVBAT_MOD_T_11: 14.375
+  response: 17FE007B05621EB801B3

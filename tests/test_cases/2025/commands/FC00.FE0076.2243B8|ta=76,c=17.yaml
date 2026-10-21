@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.2243B8|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_DCDC_T_COOL: 16
+  response: 17FE0076056243B800A0
+- expected_values:
+    BUZZ_DCDC_T_COOL: 17.5
+  response: 17FE0076056243B800AF

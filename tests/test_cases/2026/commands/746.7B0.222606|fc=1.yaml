@@ -1,0 +1,11 @@
+command_id: 746.7B0.222606|fc=1
+test_cases:
+- expected_values:
+    BUZZ_RAD_FAN_ACT_DUTY: 10
+  response: 7B00462260619
+- expected_values:
+    BUZZ_RAD_FAN_ACT_DUTY: 10.4
+  response: 7B0046226061A
+- expected_values:
+    BUZZ_RAD_FAN_ACT_DUTY: 20
+  response: 7B00462260632

@@ -1,0 +1,5 @@
+command_id: FC00.FE0076.222005|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_BRAKE_BOOSTER_P: 0
+  response: 17FE0076056220050000

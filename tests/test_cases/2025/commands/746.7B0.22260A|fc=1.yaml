@@ -1,0 +1,8 @@
+command_id: 746.7B0.22260A|fc=1
+test_cases:
+- expected_values:
+    BUZZ_AAT_CABIN: 3
+  response: 7B00462260A6A
+- expected_values:
+    BUZZ_AAT_CABIN: 27
+  response: 7B00462260A9A

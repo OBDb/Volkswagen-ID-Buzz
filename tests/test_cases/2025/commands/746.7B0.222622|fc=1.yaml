@@ -1,0 +1,11 @@
+command_id: 746.7B0.222622|fc=1
+test_cases:
+- expected_values:
+    BUZZ_FRONT_LEFT_T_FLAP_ACT: 0
+  response: 7B00662262200B200
+- expected_values:
+    BUZZ_FRONT_LEFT_T_FLAP_ACT: 13
+  response: 7B00662262201181A
+- expected_values:
+    BUZZ_FRONT_LEFT_T_FLAP_ACT: 100
+  response: 7B006622622FFFFFF

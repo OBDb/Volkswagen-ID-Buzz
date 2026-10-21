@@ -1,0 +1,20 @@
+command_id: 746.7B0.222612|fc=1
+test_cases:
+- expected_values:
+    BUZZ_HVAC_EVAP_T: 44
+  response: 7B00562261201B8
+- expected_values:
+    BUZZ_HVAC_EVAP_T: 45
+  response: 7B00562261201C2
+- expected_values:
+    BUZZ_HVAC_EVAP_T: 46
+  response: 7B00562261201CC
+- expected_values:
+    BUZZ_HVAC_EVAP_T: 47
+  response: 7B00562261201D6
+- expected_values:
+    BUZZ_HVAC_EVAP_T: 48
+  response: 7B00562261201E0
+- expected_values:
+    BUZZ_HVAC_EVAP_T: 49
+  response: 7B00562261201EA

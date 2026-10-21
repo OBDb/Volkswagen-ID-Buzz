@@ -1,0 +1,20 @@
+command_id: 746.7B0.22260A|fc=1
+test_cases:
+- expected_values:
+    BUZZ_AAT_CABIN: 9
+  response: 7B00462260A76
+- expected_values:
+    BUZZ_AAT_CABIN: 9.5
+  response: 7B00462260A77
+- expected_values:
+    BUZZ_AAT_CABIN: 10
+  response: 7B00462260A78
+- expected_values:
+    BUZZ_AAT_CABIN: 10.5
+  response: 7B00462260A79
+- expected_values:
+    BUZZ_AAT_CABIN: 12
+  response: 7B00462260A7C
+- expected_values:
+    BUZZ_AAT_CABIN: 12.5
+  response: 7B00462260A7D

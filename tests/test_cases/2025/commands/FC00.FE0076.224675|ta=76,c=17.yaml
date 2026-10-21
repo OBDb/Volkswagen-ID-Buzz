@@ -1,0 +1,8 @@
+command_id: FC00.FE0076.224675|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_V_TRAC: 366.5
+  response: 17FE0076056246750E51
+- expected_values:
+    BUZZ_HVBAT_V_TRAC: 382.5
+  response: 17FE0076056246750EF1

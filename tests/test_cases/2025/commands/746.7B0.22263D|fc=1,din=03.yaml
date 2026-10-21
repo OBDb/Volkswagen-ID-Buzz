@@ -1,0 +1,20 @@
+command_id: 746.7B0.22263D|fc=1,din=03
+test_cases:
+- expected_values:
+    BUZZ_REAR_DEFL_T: 26.64
+  response: 7B00462263D50
+- expected_values:
+    BUZZ_REAR_DEFL_T: 32.634
+  response: 7B00462263D62
+- expected_values:
+    BUZZ_REAR_DEFL_T: 33.966
+  response: 7B00462263D66
+- expected_values:
+    BUZZ_REAR_DEFL_T: 34.632
+  response: 7B00462263D68
+- expected_values:
+    BUZZ_REAR_DEFL_T: 34.965
+  response: 7B00462263D69
+- expected_values:
+    BUZZ_REAR_DEFL_T: 35.298
+  response: 7B00462263D6A

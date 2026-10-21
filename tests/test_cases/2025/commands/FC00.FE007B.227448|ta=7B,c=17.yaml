@@ -1,0 +1,7 @@
+command_id: FC00.FE007B.227448|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_AC_CHARGING: 0
+    BUZZ_DRIVE_MODE: DRIVING
+    BUZZ_RAPID_CHARGE_PORT: 0
+  response: 17FE007B0462744801

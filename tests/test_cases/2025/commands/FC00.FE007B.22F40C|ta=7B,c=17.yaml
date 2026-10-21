@@ -1,0 +1,11 @@
+command_id: FC00.FE007B.22F40C|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_ELDRIVE_MOTOR_RPM: 0
+  response: 17FE007B0562F40C0000
+- expected_values:
+    BUZZ_ELDRIVE_MOTOR_RPM: 830
+  response: 17FE007B0562F40C0CF8
+- expected_values:
+    BUZZ_ELDRIVE_MOTOR_RPM: 7715
+  response: 17FE007B0562F40C788C

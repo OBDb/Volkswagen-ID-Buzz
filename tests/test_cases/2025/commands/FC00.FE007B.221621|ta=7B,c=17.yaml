@@ -1,0 +1,17 @@
+command_id: FC00.FE007B.221621|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_PTC_V: 13.9
+  response: 17FE007B046216218B
+- expected_values:
+    BUZZ_HVBAT_PTC_V: 14
+  response: 17FE007B046216218C
+- expected_values:
+    BUZZ_HVBAT_PTC_V: 14.7
+  response: 17FE007B0462162193
+- expected_values:
+    BUZZ_HVBAT_PTC_V: 14.8
+  response: 17FE007B0462162194
+- expected_values:
+    BUZZ_HVBAT_PTC_V: 14.9
+  response: 17FE007B0462162195

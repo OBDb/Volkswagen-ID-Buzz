@@ -1,0 +1,30 @@
+command_id: 767.7D1.222431|fc=1
+test_cases:
+- expected_values:
+    BUZZ_GPS_SATS_TRACKED: 14
+    BUZZ_GPS_SATS_VISIBLE: 4
+  response: 7D106622431040E0A
+- expected_values:
+    BUZZ_GPS_SATS_TRACKED: 16
+    BUZZ_GPS_SATS_VISIBLE: 4
+  response: 7D106622431041009
+- expected_values:
+    BUZZ_GPS_SATS_TRACKED: 16
+    BUZZ_GPS_SATS_VISIBLE: 4
+  response: 7D10662243104100A
+- expected_values:
+    BUZZ_GPS_SATS_TRACKED: 16
+    BUZZ_GPS_SATS_VISIBLE: 4
+  response: 7D10662243104100B
+- expected_values:
+    BUZZ_GPS_SATS_TRACKED: 16
+    BUZZ_GPS_SATS_VISIBLE: 4
+  response: 7D10662243104100C
+- expected_values:
+    BUZZ_GPS_SATS_TRACKED: 16
+    BUZZ_GPS_SATS_VISIBLE: 4
+  response: 7D10662243104100D
+- expected_values:
+    BUZZ_GPS_SATS_TRACKED: 16
+    BUZZ_GPS_SATS_VISIBLE: 4
+  response: 7D106622431041010

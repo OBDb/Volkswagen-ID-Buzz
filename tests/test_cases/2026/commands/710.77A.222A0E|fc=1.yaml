@@ -1,0 +1,26 @@
+command_id: 710.77A.222A0E|fc=1
+test_cases:
+- expected_values:
+    BUZZ_SSB_R: 0
+  response: 77A04622A0E00
+- expected_values:
+    BUZZ_SSB_R: 0.2
+  response: 77A04622A0E01
+- expected_values:
+    BUZZ_SSB_R: 1.2
+  response: 77A04622A0E06
+- expected_values:
+    BUZZ_SSB_R: 8.2
+  response: 77A04622A0E29
+- expected_values:
+    BUZZ_SSB_R: 8.4
+  response: 77A04622A0E2A
+- expected_values:
+    BUZZ_SSB_R: 8.6
+  response: 77A04622A0E2B
+- expected_values:
+    BUZZ_SSB_R: 30.2
+  response: 77A04622A0E97
+- expected_values:
+    BUZZ_SSB_R: 30.4
+  response: 77A04622A0E98

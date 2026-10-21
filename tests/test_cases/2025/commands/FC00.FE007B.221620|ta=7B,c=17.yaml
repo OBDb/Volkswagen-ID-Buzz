@@ -1,0 +1,5 @@
+command_id: FC00.FE007B.221620|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_PTC_I: 0
+  response: 17FE007B0462162000
