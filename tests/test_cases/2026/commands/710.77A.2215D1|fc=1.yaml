@@ -1,0 +1,14 @@
+command_id: 710.77A.2215D1|fc=1
+test_cases:
+- expected_values:
+    BUZZ_HV_EM_NV_PWR_LIMITATION: 9500
+  response: 77A076215D1010001BE
+- expected_values:
+    BUZZ_HV_EM_NV_PWR_LIMITATION: 11450
+  response: 77A076215D1018201E5
+- expected_values:
+    BUZZ_HV_EM_NV_PWR_LIMITATION: 9600
+  response: 77A076215D1030701C0
+- expected_values:
+    BUZZ_HV_EM_NV_PWR_LIMITATION: 9250
+  response: 77A076215D1031B01B9

@@ -1,0 +1,29 @@
+command_id: 712.77C.221812|fc=1
+test_cases:
+- expected_values:
+    BUZZ_STEER_WHEEL_ANGLE: -169.25
+  response: 77C056218121226
+- expected_values:
+    BUZZ_STEER_WHEEL_ANGLE: -4.25
+  response: 77C05621812174E
+- expected_values:
+    BUZZ_STEER_WHEEL_ANGLE: -1.625
+  response: 77C056218121763
+- expected_values:
+    BUZZ_STEER_WHEEL_ANGLE: -1.375
+  response: 77C056218121765
+- expected_values:
+    BUZZ_STEER_WHEEL_ANGLE: 0
+  response: 77C056218121770
+- expected_values:
+    BUZZ_STEER_WHEEL_ANGLE: 9
+  response: 77C0562181217B8
+- expected_values:
+    BUZZ_STEER_WHEEL_ANGLE: 9.25
+  response: 77C0562181217BA
+- expected_values:
+    BUZZ_STEER_WHEEL_ANGLE: 10.75
+  response: 77C0562181217C6
+- expected_values:
+    BUZZ_STEER_WHEEL_ANGLE: 30.125
+  response: 77C056218121861

@@ -1,0 +1,8 @@
+command_id: 746.7B0.22260D|fc=1
+test_cases:
+- expected_values:
+    BUZZ_FRONT_RIGHT_DEFL_T: 33.3
+  response: 7B00462260D64
+- expected_values:
+    BUZZ_FRONT_RIGHT_DEFL_T: 58.275
+  response: 7B00462260DAF

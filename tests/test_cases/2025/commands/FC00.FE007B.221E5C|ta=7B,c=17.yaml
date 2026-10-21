@@ -1,0 +1,8 @@
+command_id: FC00.FE007B.221E5C|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_CELL_V_029: 3.873
+  response: 17FE007B05621E5C0B39
+- expected_values:
+    BUZZ_HVBAT_CELL_V_029: 4.045
+  response: 17FE007B05621E5C0BE5

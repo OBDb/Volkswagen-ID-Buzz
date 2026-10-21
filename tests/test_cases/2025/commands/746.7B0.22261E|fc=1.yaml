@@ -1,0 +1,18 @@
+command_id: 746.7B0.22261E|fc=1
+test_cases:
+- expected_values:
+    BUZZ_RECIRC_FLAP_ACT_PCT: 57
+    BUZZ_RECIRC_FLAP_ACT_STEPS: 561
+  response: 7B00662261E023172
+- expected_values:
+    BUZZ_RECIRC_FLAP_ACT_PCT: 66
+    BUZZ_RECIRC_FLAP_ACT_STEPS: 624
+  response: 7B00662261E027084
+- expected_values:
+    BUZZ_RECIRC_FLAP_ACT_PCT: 92
+    BUZZ_RECIRC_FLAP_ACT_STEPS: 800
+  response: 7B00662261E0320B8
+- expected_values:
+    BUZZ_RECIRC_FLAP_ACT_PCT: 100
+    BUZZ_RECIRC_FLAP_ACT_STEPS: 869
+  response: 7B00662261E0365C8

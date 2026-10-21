@@ -1,0 +1,8 @@
+command_id: 710.77A.222AB2|fc=1
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_CAP: 82
+  response: 77A07622AB206680400
+- expected_values:
+    BUZZ_HVBAT_CAP: 86.3
+  response: 77A07622AB206BE0400

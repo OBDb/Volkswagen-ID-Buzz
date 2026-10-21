@@ -1,0 +1,14 @@
+command_id: 746.7B0.222609|fc=1
+test_cases:
+- expected_values:
+    BUZZ_AAT_V2: 9.5
+  response: 7B00462260977
+- expected_values:
+    BUZZ_AAT_V2: 10
+  response: 7B00462260978
+- expected_values:
+    BUZZ_AAT_V2: 13
+  response: 7B0046226097E
+- expected_values:
+    BUZZ_AAT_V2: 13.5
+  response: 7B0046226097F

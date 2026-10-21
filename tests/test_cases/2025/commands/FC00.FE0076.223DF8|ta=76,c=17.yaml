@@ -1,0 +1,29 @@
+command_id: FC00.FE0076.223DF8|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_MOTOR_RPM: 0
+  response: 17FE007605623DF80000
+- expected_values:
+    BUZZ_MOTOR_RPM: 696
+  response: 17FE007605623DF80570
+- expected_values:
+    BUZZ_MOTOR_RPM: 2485
+  response: 17FE007605623DF8136A
+- expected_values:
+    BUZZ_MOTOR_RPM: 3218
+  response: 17FE007605623DF81924
+- expected_values:
+    BUZZ_MOTOR_RPM: 3262
+  response: 17FE007605623DF8197C
+- expected_values:
+    BUZZ_MOTOR_RPM: 3989
+  response: 17FE007605623DF81F2A
+- expected_values:
+    BUZZ_MOTOR_RPM: 5053
+  response: 17FE007605623DF8277A
+- expected_values:
+    BUZZ_MOTOR_RPM: -207
+  response: 17FE007605623DF8FE62
+- expected_values:
+    BUZZ_MOTOR_RPM: -83
+  response: 17FE007605623DF8FF5A

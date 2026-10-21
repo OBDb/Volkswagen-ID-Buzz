@@ -1,0 +1,5 @@
+command_id: FC00.FE007B.225171|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_MAXIMUM_CHARGE_V: 408
+  response: 17FE007B056251710198

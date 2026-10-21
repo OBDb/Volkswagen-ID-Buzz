@@ -1,0 +1,8 @@
+command_id: 746.7B0.222613|fc=1
+test_cases:
+- expected_values:
+    BUZZ_HVAC_IAT: 26.8
+  response: 7B005622613010C
+- expected_values:
+    BUZZ_HVAC_IAT: 33
+  response: 7B005622613014A

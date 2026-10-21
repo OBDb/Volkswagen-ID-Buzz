@@ -1,0 +1,23 @@
+command_id: 746.7B0.2242DB|fc=1
+test_cases:
+- expected_values:
+    BUZZ_CO2_CONTENT_INTERIOR: 400
+  response: 7B0056242DB0004
+- expected_values:
+    BUZZ_CO2_CONTENT_INTERIOR: 500
+  response: 7B0056242DB0005
+- expected_values:
+    BUZZ_CO2_CONTENT_INTERIOR: 900
+  response: 7B0056242DB0009
+- expected_values:
+    BUZZ_CO2_CONTENT_INTERIOR: 1100
+  response: 7B0056242DB000B
+- expected_values:
+    BUZZ_CO2_CONTENT_INTERIOR: 1200
+  response: 7B0056242DB000C
+- expected_values:
+    BUZZ_CO2_CONTENT_INTERIOR: 1300
+  response: 7B0056242DB000D
+- expected_values:
+    BUZZ_CO2_CONTENT_INTERIOR: 1400
+  response: 7B0056242DB000E

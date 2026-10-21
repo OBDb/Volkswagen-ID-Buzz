@@ -1,0 +1,38 @@
+command_id: FC00.FE007B.22189D|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_T_IN: 11.5
+    BUZZ_HVBAT_T_OUT: 12
+  response: 17FE007B0762189D030002E0
+- expected_values:
+    BUZZ_HVBAT_T_IN: 12
+    BUZZ_HVBAT_T_OUT: 12
+  response: 17FE007B0762189D03000300
+- expected_values:
+    BUZZ_HVBAT_T_IN: 12.5
+    BUZZ_HVBAT_T_OUT: 12
+  response: 17FE007B0762189D03000320
+- expected_values:
+    BUZZ_HVBAT_T_IN: 12
+    BUZZ_HVBAT_T_OUT: 12.5
+  response: 17FE007B0762189D03200300
+- expected_values:
+    BUZZ_HVBAT_T_IN: 12.5
+    BUZZ_HVBAT_T_OUT: 12.5
+  response: 17FE007B0762189D03200320
+- expected_values:
+    BUZZ_HVBAT_T_IN: 13
+    BUZZ_HVBAT_T_OUT: 12.5
+  response: 17FE007B0762189D03200340
+- expected_values:
+    BUZZ_HVBAT_T_IN: 12.5
+    BUZZ_HVBAT_T_OUT: 13
+  response: 17FE007B0762189D03400320
+- expected_values:
+    BUZZ_HVBAT_T_IN: 13
+    BUZZ_HVBAT_T_OUT: 13
+  response: 17FE007B0762189D03400340
+- expected_values:
+    BUZZ_HVBAT_T_IN: 14
+    BUZZ_HVBAT_T_OUT: 14
+  response: 17FE007B0762189D03800380

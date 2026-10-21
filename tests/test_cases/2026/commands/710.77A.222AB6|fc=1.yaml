@@ -1,0 +1,27 @@
+command_id: 710.77A.222AB6|fc=1
+test_cases:
+- expected_values:
+    BUZZ_RANGE: 134
+  response: |-
+    77A100A622AB6008600
+    77A2186000001AAAAAA
+- expected_values:
+    BUZZ_RANGE: 134
+  response: |-
+    77A100A622AB6008600
+    77A218600001FAAAAAA
+- expected_values:
+    BUZZ_RANGE: 139
+  response: |-
+    77A100A622AB6008B00
+    77A218B000001AAAAAA
+- expected_values:
+    BUZZ_RANGE: 162
+  response: |-
+    77A100A622AB600A200
+    77A21A200001BAAAAAA
+- expected_values:
+    BUZZ_RANGE: 167
+  response: |-
+    77A100A622AB600A700
+    77A21A7000001AAAAAA

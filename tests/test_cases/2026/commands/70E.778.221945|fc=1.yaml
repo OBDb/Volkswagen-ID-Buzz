@@ -1,0 +1,5 @@
+command_id: 70E.778.221945|fc=1
+test_cases:
+- expected_values:
+    BUZZ_HTR_NOZZLE: 1
+  response: '7780462194501'

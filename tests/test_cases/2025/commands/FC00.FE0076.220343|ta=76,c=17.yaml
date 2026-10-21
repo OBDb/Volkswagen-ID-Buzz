@@ -1,0 +1,5 @@
+command_id: FC00.FE0076.220343|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_MOTOR_TRQ_DIFF: 0
+  response: 17FE0076056203430000

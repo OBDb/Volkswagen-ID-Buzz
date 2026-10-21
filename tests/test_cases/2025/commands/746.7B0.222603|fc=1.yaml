@@ -1,0 +1,8 @@
+command_id: 746.7B0.222603|fc=1
+test_cases:
+- expected_values:
+    BUZZ_A_C_CMPR_SPEED: 0
+  response: 7B00462260300
+- expected_values:
+    BUZZ_A_C_CMPR_SPEED: 3100
+  response: 7B0046226031F

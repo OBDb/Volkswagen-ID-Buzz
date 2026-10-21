@@ -1,0 +1,5 @@
+command_id: 746.7B0.222620|fc=1
+test_cases:
+- expected_values:
+    BUZZ_RECIRC_FLAP_STOP_FRESH: 156
+  response: 7B005622620009C

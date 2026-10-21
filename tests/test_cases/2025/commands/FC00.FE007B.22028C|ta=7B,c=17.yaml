@@ -1,0 +1,8 @@
+command_id: FC00.FE007B.22028C|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_SOC_DISP: 70.76522
+  response: 17FE007B0462028CAE
+- expected_values:
+    BUZZ_SOC_DISP: 80.07826
+  response: 17FE007B0462028CC3

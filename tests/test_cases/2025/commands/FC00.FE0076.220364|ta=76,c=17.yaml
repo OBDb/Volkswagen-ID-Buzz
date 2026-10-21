@@ -1,0 +1,32 @@
+command_id: FC00.FE0076.220364|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVAUX_PWR: 0.1
+  response: 17FE0076056203640001
+- expected_values:
+    BUZZ_HVAUX_PWR: 0.9
+  response: 17FE0076056203640009
+- expected_values:
+    BUZZ_HVAUX_PWR: 1
+  response: 17FE007605620364000A
+- expected_values:
+    BUZZ_HVAUX_PWR: 1.4
+  response: 17FE007605620364000E
+- expected_values:
+    BUZZ_HVAUX_PWR: 1.5
+  response: 17FE007605620364000F
+- expected_values:
+    BUZZ_HVAUX_PWR: 1.6
+  response: 17FE0076056203640010
+- expected_values:
+    BUZZ_HVAUX_PWR: 1.7
+  response: 17FE0076056203640011
+- expected_values:
+    BUZZ_HVAUX_PWR: 1.8
+  response: 17FE0076056203640012
+- expected_values:
+    BUZZ_HVAUX_PWR: 2.1
+  response: 17FE0076056203640015
+- expected_values:
+    BUZZ_HVAUX_PWR: 2.2
+  response: 17FE0076056203640016

@@ -1,0 +1,17 @@
+command_id: FC00.FE007B.222A0B|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_BATTERY_T: 11.5
+  response: 17FE007B04622A0B67
+- expected_values:
+    BUZZ_BATTERY_T: 12
+  response: 17FE007B04622A0B68
+- expected_values:
+    BUZZ_BATTERY_T: 12.5
+  response: 17FE007B04622A0B69
+- expected_values:
+    BUZZ_BATTERY_T: 13
+  response: 17FE007B04622A0B6A
+- expected_values:
+    BUZZ_BATTERY_T: 13.5
+  response: 17FE007B04622A0B6B

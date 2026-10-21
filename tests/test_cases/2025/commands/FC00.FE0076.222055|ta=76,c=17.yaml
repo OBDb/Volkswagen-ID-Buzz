@@ -1,0 +1,26 @@
+command_id: FC00.FE0076.222055|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_RADIATOR_FAN_DUTY: 9.77
+  response: 17FE00760562205503D1
+- expected_values:
+    BUZZ_RADIATOR_FAN_DUTY: 17.19
+  response: 17FE00760562205506B7
+- expected_values:
+    BUZZ_RADIATOR_FAN_DUTY: 23.83
+  response: 17FE007605622055094F
+- expected_values:
+    BUZZ_RADIATOR_FAN_DUTY: 25.39
+  response: 17FE00760562205509EB
+- expected_values:
+    BUZZ_RADIATOR_FAN_DUTY: 25.78
+  response: 17FE0076056220550A12
+- expected_values:
+    BUZZ_RADIATOR_FAN_DUTY: 26.17
+  response: 17FE0076056220550A39
+- expected_values:
+    BUZZ_RADIATOR_FAN_DUTY: 26.95
+  response: 17FE0076056220550A87
+- expected_values:
+    BUZZ_RADIATOR_FAN_DUTY: 28.13
+  response: 17FE0076056220550AFD

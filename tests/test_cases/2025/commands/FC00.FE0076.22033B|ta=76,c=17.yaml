@@ -1,0 +1,29 @@
+command_id: FC00.FE0076.22033B|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_MOTOR_TRQ_REAR: 0
+  response: 17FE00760562033B0000
+- expected_values:
+    BUZZ_MOTOR_TRQ_REAR: 3
+  response: 17FE00760562033B0003
+- expected_values:
+    BUZZ_MOTOR_TRQ_REAR: 6
+  response: 17FE00760562033B0006
+- expected_values:
+    BUZZ_MOTOR_TRQ_REAR: 22
+  response: 17FE00760562033B0016
+- expected_values:
+    BUZZ_MOTOR_TRQ_REAR: 70
+  response: 17FE00760562033B0046
+- expected_values:
+    BUZZ_MOTOR_TRQ_REAR: 200
+  response: 17FE00760562033B00C8
+- expected_values:
+    BUZZ_MOTOR_TRQ_REAR: -117
+  response: 17FE00760562033BFF8B
+- expected_values:
+    BUZZ_MOTOR_TRQ_REAR: -37
+  response: 17FE00760562033BFFDB
+- expected_values:
+    BUZZ_MOTOR_TRQ_REAR: -32
+  response: 17FE00760562033BFFE0

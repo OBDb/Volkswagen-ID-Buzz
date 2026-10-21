@@ -1,0 +1,11 @@
+command_id: FC00.FE0076.220346|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_STEER_ANGLE: 0.2
+  response: 17FE0076056203460002
+- expected_values:
+    BUZZ_STEER_ANGLE: 76.3
+  response: 17FE00760562034602FB
+- expected_values:
+    BUZZ_STEER_ANGLE: 521
+  response: 17FE007605620346145A

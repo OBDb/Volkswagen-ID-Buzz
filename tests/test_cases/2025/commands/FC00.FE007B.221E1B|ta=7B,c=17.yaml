@@ -1,0 +1,11 @@
+command_id: FC00.FE007B.221E1B|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_I_LIM_CHG: 335.4
+  response: 17FE007B05621E1B068D
+- expected_values:
+    BUZZ_HVBAT_I_LIM_CHG: 352.6
+  response: 17FE007B05621E1B06E3
+- expected_values:
+    BUZZ_HVBAT_I_LIM_CHG: 360.8
+  response: 17FE007B05621E1B070C

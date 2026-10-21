@@ -1,0 +1,5 @@
+command_id: 746.7B0.222605|fc=1
+test_cases:
+- expected_values:
+    BUZZ_REFRIG_P: null
+  response: 7B004622605FF

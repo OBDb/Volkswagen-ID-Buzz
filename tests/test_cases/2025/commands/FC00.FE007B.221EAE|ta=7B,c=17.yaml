@@ -1,0 +1,8 @@
+command_id: FC00.FE007B.221EAE|ta=7B,c=17
+test_cases:
+- expected_values:
+    BUZZ_HVBAT_MOD_T_1: 11.875
+  response: 17FE007B05621EAE019F
+- expected_values:
+    BUZZ_HVBAT_MOD_T_1: 14.25
+  response: 17FE007B05621EAE01B2

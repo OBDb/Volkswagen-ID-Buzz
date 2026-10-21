@@ -1,0 +1,20 @@
+command_id: FC00.FE0076.223DEF|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_SOC: 70
+  response: 17FE007605623DEF1B58
+- expected_values:
+    BUZZ_SOC: 70.5
+  response: 17FE007605623DEF1B8A
+- expected_values:
+    BUZZ_SOC: 71
+  response: 17FE007605623DEF1BBC
+- expected_values:
+    BUZZ_SOC: 76.5
+  response: 17FE007605623DEF1DE2
+- expected_values:
+    BUZZ_SOC: 77
+  response: 17FE007605623DEF1E14
+- expected_values:
+    BUZZ_SOC: 77.5
+  response: 17FE007605623DEF1E46

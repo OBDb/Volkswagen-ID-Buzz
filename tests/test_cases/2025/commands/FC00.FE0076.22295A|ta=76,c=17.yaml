@@ -1,0 +1,26 @@
+command_id: FC00.FE0076.22295A|ta=76,c=17
+test_cases:
+- expected_values:
+    BUZZ_ENG_ODO: 10075
+  response: 17FE00760662295A00275B
+- expected_values:
+    BUZZ_ENG_ODO: 10097
+  response: 17FE00760662295A002771
+- expected_values:
+    BUZZ_ENG_ODO: 10099
+  response: 17FE00760662295A002773
+- expected_values:
+    BUZZ_ENG_ODO: 10100
+  response: 17FE00760662295A002774
+- expected_values:
+    BUZZ_ENG_ODO: 10101
+  response: 17FE00760662295A002775
+- expected_values:
+    BUZZ_ENG_ODO: 10102
+  response: 17FE00760662295A002776
+- expected_values:
+    BUZZ_ENG_ODO: 10436
+  response: 17FE00760662295A0028C4
+- expected_values:
+    BUZZ_ENG_ODO: 10456
+  response: 17FE00760662295A0028D8
